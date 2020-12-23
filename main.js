@@ -69,7 +69,7 @@ formulario.inputNumero.addEventListener('keyup', (e) => {
 	if(valorInput[0] == 4){
 		logoMarca.innerHTML = '';
 		const imagen = document.createElement('img');
-		imagen.src = 'img/logos/visa.png';
+		imagen.src = 'imagenes/visa.png';
 		logoMarca.appendChild(imagen);
 	} else if(valorInput[0] == 5){
 		logoMarca.innerHTML = '';
