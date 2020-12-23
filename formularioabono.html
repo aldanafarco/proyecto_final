@@ -9,10 +9,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action="correos.php" method="POST">
+    <form name="formularioabono" method="POST" data-netlify="true">
         <div class="form">
             <h1>Solicitá tu abono personal</h1>
-           
+           <div data-netlify-recaptcha="true"></div>
            <div class="grupo">
                <input type="text" name="nombre" id="" required><span class="barra"></span>
                <label>Nombre</label>
