@@ -1,0 +1,63 @@
+*{margin: 0;padding:0}
+*{box-sizing: border-box;}
+html{
+font-family: 'Quattrocento', serif;}
+
+p{font-family: 'Quattrocento', serif;
+    font-size: 30px;
+}
+ul{ font-family:'Quattrocento', serif ;
+    font-size: 20px;}
+    
+.bg1{background: #16a085 }
+.bg2{background: #27ae60}
+.bg3{background: #a4d8f8}
+.bg4{background: #8e44ad}
+.bg5{background: #e74c3c}
+.bg6{background: #2c3e50}
+.bg7{background: #def5f7}
+.bg8{background: #0fc7ce}
+.bg9{background: #1c2aee}
+.bg10{background: #fcfaf7}
+.bg11{background: rgb(7, 7, 7);}
+
+.container{
+    width: 95%;
+    max-width: 95%;
+    max-width: 500px;
+    padding: 10px 10px;
+    margin: auto;
+}
+.social{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+#header{
+    animation-name:anim1;
+    animation-duration: 1.5s;
+    animation-delay: 3s;
+}
+.volver{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    cursor: pointer;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:30px; }
+.credit-card-div .small-font { font-size:9px; }
+.credit-card-div .pad-adjust { padding-top:10px; }
+
+
+
+    
+    
