@@ -63,10 +63,7 @@
 
 		<!-- Formulario -->
 		<form action="https://www.mi-sitio.com/procesar-pago" method="POST" id="formulario-tarjeta" class="formulario-tarjeta">
-						<script
-    src="https://www.mercadopago.com.ar/integrations/v1/web-tokenize-checkout.js"
-    data-public-key="ENV_PUBLIC_KEY"
-    data-transaction-amount="100.00"></script>
+						<script>
 			<div class="grupo">
 				<label for="inputNumero">Número Tarjeta</label>
 				<input type="text" id="inputNumero" maxlength="19" autocomplete="off">
@@ -105,5 +102,10 @@
 
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 	<script src="main.js"></script>
+				<script
+    src="https://www.mercadopago.com.ar/integrations/v1/web-tokenize-checkout.js"
+    data-public-key="ENV_PUBLIC_KEY"
+    data-transaction-amount="100.00"></script>
+	<script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
 </body>
 </html>
